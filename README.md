@@ -1,5 +1,5 @@
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.2-8892BF.svg?style=flat-square)](https://php.net/)
-[![GitHub release]([https://img.shields.io/github/v/release/<TUO-USERNAME>/popupview](https://github.com/beneventano1929/popupview/releases/tag/1.0.0))]([https://github.com/<TUO-USERNAME>/popupview/releases](https://github.com/beneventano1929/popupview/releases/tag/1.0.0))
+[![GitHub release]([[https://img.shields.io/github/v/release/beneventano1929/popupview](https://img.shields.io/github/v/release/<TUO-USERNAME>/popupview)](https://github.com/beneventano1929/popupview/releases/tag/1.0.0))]([https://github.com/<TUO-USERNAME>/popupview/releases](https://github.com/beneventano1929/popupview/releases/tag/1.0.0))
 
 # PopupView
 
