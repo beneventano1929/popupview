@@ -21,7 +21,7 @@ Configurazione
 
 Dal back-office, vai su Moduli > Moduli installati.
 Cerca PopupView e apri la pagina di configurazione.
-Imposta i messaggi, le tempistiche e le opzioni di visualizzazione secondo le tue preferenze.
+Imposta i messaggi e le opzioni di visualizzazione secondo le tue preferenze.
 Salva le modifiche per rendere attivi i tuoi pop-up.
 
 Come contribuire
