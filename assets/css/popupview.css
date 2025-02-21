@@ -1,0 +1,40 @@
+.popup-view {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #ff5252; /* Rosso per urgenza */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: none;
+}
+
+.popup-view.show {
+    display: block;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.popup-message {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.popup-message strong {
+    font-size: 18px;
+    color: #ffe082;
+}
