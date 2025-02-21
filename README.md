@@ -18,7 +18,7 @@
 
 ## Installazione (da release)
 
-1. Vai alla pagina [Releases](https://github.com/<TUO-USERNAME>/popupview/releases) di questo repository.  
+1. Vai alla pagina [Releases](https://github.com/beneventano1020/popupview/releases) di questo repository.  
 2. Scarica l’ultima versione disponibile (file ZIP).  
 3. Accedi al back-office di PrestaShop e vai su **Moduli > Gestisci i moduli**.  
 4. Clicca su **Carica un modulo** e seleziona il file ZIP.  
