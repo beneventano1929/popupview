@@ -50,12 +50,12 @@
 
 | PrestaShop Version | Compatibile          |
 | ------------------ | -------------------- |
-| < 1.7             | :x:                  |
+| < 1.7             |:interrobang: Da testare                |
 | 1.7.x             | :heavy_check_mark:   |
 
 | PHP Version | Compatibile             |
 | ----------- | ----------------------- |
-| < 7.2       | :x:                     |
+| < 7.2       | :interrobang: Da testare                     |
 | 7.2 - 7.4   | :heavy_check_mark:      |
 | 8.0         | :interrobang: Da testare|
 
