@@ -1,9 +1,32 @@
-<div class="panel">
-    <p style="background-color: #f9f9f9; padding: 10px; border-left: 5px solid #d9534f;">
-        <strong>{l s='Variabile {X}:' mod='popupview'}</strong><br>
-        {l s='Rappresenta un numero casuale che indica la quantità residua di un prodotto.' mod='popupview'}<br>
-        {l s='Generato casualmente tra 1 e 10, per far sembrare che ci siano solo pochi pezzi rimasti.' mod='popupview'}<br>
-        {l s='Utilizzato per creare frasi come:' mod='popupview'}<br>
+    {if isset($errors) && $errors|count > 0}
+        <div class="alert alert-danger">
+            <ul>
+                {foreach from=$errors item=error}
+                    <li>{$error}</li>
+                {/foreach}
+            </ul>
+        </div>
+    {/if}
+    <form action="{$form_action}" method="post">
+        {for $i=1 to 5}
+            <div class="form-group">
+                <label>{l s='Messaggio' mod='popupview'} {$i}</label>
+                <input type="text" name="POPUPVIEW_MESSAGE_{$i}" value="{$messages[$i-1]|escape:'htmlall':'UTF-8'}" class="form-control">
+            </div>
+        {/for}
+        <div class="form-group">
+            <label>{l s='Ritardo prima della prima visualizzazione (secondi)' mod='popupview'}</label>
+            <input type="number" min="0" name="POPUPVIEW_DELAY" value="{$delay|intval}" class="form-control" style="max-width: 200px;">
+        </div>
+        <div class="form-group">
+            <label>{l s='Intervallo di ripetizione (secondi, 0 = una sola volta)' mod='popupview'}</label>
+            <input type="number" min="0" name="POPUPVIEW_REPEAT_INTERVAL" value="{$repeat_interval|intval}" class="form-control" style="max-width: 200px;">
+        </div>
+        <div class="form-group">
+            <label>{l s='Colore di sfondo' mod='popupview'}</label>
+            <input type="color" name="POPUPVIEW_BG_COLOR" value="{$bg_color|escape:'htmlall':'UTF-8'}" class="form-control" style="max-width: 150px;">
+        </div>
+
         <em>"{l s='Solo 5 pezzi rimasti! Ordina ora per non perderli.' mod='popupview'}"</em>
     </p>
     <p style="background-color: #f9f9f9; padding: 10px; border-left: 5px solid #0275d8;">
